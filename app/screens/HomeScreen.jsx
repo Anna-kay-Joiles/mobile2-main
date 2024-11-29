@@ -14,6 +14,7 @@ const HomeScreen = ({ navigation }) => {
   const addTask = (taskText) => {
     setTasks([...tasks, taskText]);
   };
+  
  
   return (
 <MainLayout>
